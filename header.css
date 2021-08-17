@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(53, 40, 40);
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.nav a {
+    color: rgb(39, 152, 228);
+}
+
+.nav a.active,
+.links a:hover {
+    color: rgb(127, 9, 173);
+}
